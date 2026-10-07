@@ -1,0 +1,30 @@
+# Gradle
+.gradle
+build/
+.gradle/
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.apk
+*.ap_
+*.aab
+
+# Build outputs
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Kotlin
+.kotlin/
+
+# Generated files
+gen/
+src/main/java/BuildConfig.java
+
+# Misc
+.DS_Store
+*.log
+*.swp
