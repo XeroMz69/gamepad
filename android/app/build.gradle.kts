@@ -69,12 +69,15 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.7.2")
 
-    // Data Store
+    // Data Store / SharedPreferences
     implementation("androidx.datastore:datastore-preferences:1.0.0")
 
-    // Coroutines
+    // Networking
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+
+    // Logging
+    implementation("androidx.compose.runtime:runtime:1.5.0")
 
     // Testing
     testImplementation("junit:junit:4.13.2")
